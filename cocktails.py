@@ -43,7 +43,9 @@ class Cocktails:
     def multi_ingredient_api(self):
         """
         This function uses the premium endpoint to run the search, unsure
-        whether paying for an API key was outside of scope for the task
+        whether paying for an API key was outside of scope for the task.
+        added the function for good measure; although not called, it would be
+        trivial to make code run this instead of single ingredient version
         """
         # Turn the List back into a comma separated string
         list_as_string = self.ingredients.join(",")
