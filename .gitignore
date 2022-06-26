@@ -1,2 +1,3 @@
 # ignore the .idea file generated through pycharm
 .idea
+__pycache__
